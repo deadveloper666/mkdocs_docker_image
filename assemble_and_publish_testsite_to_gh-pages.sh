@@ -7,3 +7,7 @@ cd test
 cd ..
 cp -a ./test/site/. .
 
+# COMMIT AND PUSH 
+git add -A
+git commit -m "Pushed build source"
+git push -u origin gh-pages
