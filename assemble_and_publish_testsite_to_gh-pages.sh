@@ -1,2 +1,3 @@
 #!/bin/bash
-cd docs
+cd test
+./documentationServer.sh ass
