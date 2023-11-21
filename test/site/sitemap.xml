@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://www.test_site.com/</loc>
+         <lastmod>2023-11-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.test_site.com/nav/</loc>
+         <lastmod>2023-11-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.test_site.com/nav/examples/</loc>
+         <lastmod>2023-11-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.test_site.com/nav/seccionA/</loc>
+         <lastmod>2023-11-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.test_site.com/nav/seccionB/</loc>
+         <lastmod>2023-11-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
