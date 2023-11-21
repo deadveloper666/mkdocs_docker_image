@@ -112,3 +112,9 @@ At Docker Hub, the image is published as tagVersioned (danipenaperez/mkdocs:v1.0
 
 # Testing Test mkdocs local test site
 The goals is execute assemble and publish to gh-pages (ensure that github pages is active for your repository)
+
+Execute ./assemble_and_publish_testsite_to_gh_pages.sh to execute the whole action.
+After push to gh-pages , the action https://github.com/deadveloper666/mkdocs_docker_image/actions/workflows/pages/pages-build-deployment is fired , and the static html site is published at 
+
+Live Site
+[https://deadveloper666.github.io/mkdocs_docker_image/](https://deadveloper666.github.io/mkdocs_docker_image/)
