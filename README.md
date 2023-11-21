@@ -109,3 +109,6 @@ Is associated to release (phase), so it is necessary:
 - Create release from tag manually (https://github.com/deadveloper666/mkdocs_docker_image/releases  and "Draft new Release", and choose v1.0.1)
 
 At Docker Hub, the image is published as tagVersioned (danipenaperez/mkdocs:v1.0.2) and latest (danipenaperez/mkdocs:latest)
+
+# Testing Test mkdocs local test site
+The goals is execute assemble and publish to gh-pages (ensure that github pages is active for your repository)
