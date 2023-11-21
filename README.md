@@ -103,7 +103,8 @@ Build the local documentation at $PWD/mkdocs/test/site.
 There is a github-actions-publish-to-dockerhub.yml Action that will push the image to dockerhub.
 
 Is associated to release (phase), so it is necessary:
-- Push to main
-- Push to new tag
-- If Github actions is not fired, try to create release from tag manually
+- Push to main  (git push -u origin main)
+- Create new tag (git tag v1.0.1) 
+- Push tag ( git push --tags)
+- If Github actions is not fired, try to create release from tag manually (https://github.com/deadveloper666/mkdocs_docker_image/releases  and "Draft new Release", and choose v1.0.1)
 
