@@ -26,6 +26,7 @@ theme:
 extra_css:
   # - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
   - runtime_assets/css/extra.css
+  - runtime_assets/css/neoteroi-cards/neoteroi-mkdocs.css
 extra_javascript:
   # - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
   - runtime_assets/javascript/custom_functions.js
@@ -61,8 +62,8 @@ markdown_extensions:
   - pymdownx.superfences
   - smarty   #convert ascii to html characters
   - abbr
-  - attr_list
-  - md_in_html
+  - attr_list  # used for card views
+  - md_in_html  # used for card views
   - def_list
   - footnotes
   - codehilite
@@ -71,6 +72,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - neoteroi.cards # show cards and plugins from neoteroi https://github.com/Neoteroi/mkdocs-plugins
+  - neoteroi.timeline # Timelline diagrams
+  - neoteroi.projects # Gantt Diagrams
+  - neoteroi.spantable # Tables
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' 
@@ -96,12 +101,11 @@ plugins:
   # - git-authors  Solo valido si esta linkeado a repositorio github
 nav:
   - Home: nav/index.md
-  - Documents A: nav/seccionA/index.md
+  - Neoteroi Examples: nav/neoteori_examples/index.md
   - Documents B: 
     - SeccionB:
         - Doc: nav/seccionB/index.md
-  - Ejemplos: 
-    - nav/examples/index.md        
+  - Ejemplos: nav/examples/index.md        
 #  - Documents C: nav/seccionC/index.md        
 
   

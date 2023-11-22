@@ -97,6 +97,10 @@ Incluye estilos en tu pagina para customizar tus iconos
 * opcion B
 * opcion C
 
+# Codigo resaltado
+- ==This was marked==
+- ^^This was inserted^^
+- ~~This was deleted~~
 
 # Bloques colapsados
 ??? code "docker-compose.yaml"

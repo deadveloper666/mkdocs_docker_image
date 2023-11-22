@@ -22,4 +22,5 @@ RUN pip install mkdocs-meta-descriptions-plugin
 RUN pip install mkdocs-exclude
 RUN pip install mkdocs-git-authors-plugin
 RUN pip install mkdocs-mermaid2-plugin
+RUN pip install neoteroi-mkdocs
 
