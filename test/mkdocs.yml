@@ -6,6 +6,7 @@ site_author: The test site group
 ## La pagina oficial donde estan todas las opciones de mkdocs https://github.com/mkdocs/catalog
 
 theme:
+  language: es  # https://github.com/squidfunk/mkdocs-material/blob/master/docs/setup/changing-the-language.md
   #name: material #bootstrap4 #gitbook  # cualquiera de https://mkdocs.github.io/mkdocs-bootswatch/
   name: material
   custom_dir: overrides
