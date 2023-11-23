@@ -1,4 +1,6 @@
 #!/bin/bash
+# Ensure get the last published image
+docker pull danipenaperez/mkdocs
 git checkout gh-pages
 git merge main --no-ff
 # Assemble dist
