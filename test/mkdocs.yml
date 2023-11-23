@@ -28,6 +28,7 @@ extra_css:
   # - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
   - runtime_assets/css/extra.css
   - runtime_assets/css/neoteroi-cards/neoteroi-mkdocs.css
+  - runtime_assets/css/embeded_media/embeded_media.css
 extra_javascript:
   # - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
   - runtime_assets/javascript/custom_functions.js
@@ -80,7 +81,9 @@ markdown_extensions:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' 
-  - charts 
+  - charts
+  - macros:
+      include_dir: docs/_include/macros   # https://mkdocs-macros-plugin.readthedocs.io/en/latest/advanced/
   - mermaid2:
       arguments:
         theme: 'dark'
@@ -99,13 +102,15 @@ plugins:
         - "*.gz"
       regex:
         - '.*\.(tmp|bin|tar)$'
+#  - include:  # La opcion contraria si queremos incluir en vez de excluir Docs at https://pypi.org/project/mkdocs-include/
+#      glob:
+#        - _include/*        
   # - git-authors  Solo valido si esta linkeado a repositorio github
 nav:
   - Home: nav/index.md
   - Neoteroi Examples: nav/neoteori_examples/index.md
-  - Documents B: 
-    - SeccionB:
-        - Doc: nav/seccionB/index.md
+  - Media Examples: nav/media_embeded/index.md
+  - Trabajando con Macros: nav/macros/index.md
   - Ejemplos: nav/examples/index.md        
 #  - Documents C: nav/seccionC/index.md        
 
