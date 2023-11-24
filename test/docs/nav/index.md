@@ -1,4 +1,9 @@
+---
+title: Newsletter 
+description: Explicacion de las macros
 
-Esta es la pagina Home
-
-Mete tu documentacion en formato markdown
+variableA: mi super value A
+variableList: ["valorA", "valorB", "valorC"]
+variableListObjects: [{"name":"Luis"}, {"name":"Juan"}, {"name":"Maria"}]
+edited: 15/11/2023
+---

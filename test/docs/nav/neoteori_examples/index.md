@@ -50,6 +50,30 @@ some_url: https://example.com
   content: Lorem ipsum dolor sit amet.
   image: https://www.neoteroi.dev/mkdocs-plugins/img/icons/027-nike.png
 
+
+  
+
+::/cards::
+
+::cards::  cols=2
+
+- title: Messi se tira un pedo
+  content: La gente llora su perdida porque salió volando por los aires.
+  image: https://imagenes.20minutos.es/files/image_640_360/files/fp/uploads/imagenes/2023/04/12/pep-guardiola.r_d.2136-374-1398.jpeg
+
+- title: El movil del Rey es hackeado por Antonio Resines
+  content: Si, tal y como cuentan las noticias...
+  image: https://imagenes.20minutos.es/files/image_320_180/files/fp/uploads/imagenes/2022/04/05/pago-con-tarjeta.r_d.2240-2240.jpeg
+
+
+::/cards::
+
+::cards::  cols=1 image-bg
+
+- title: Messi se tira un pedo ante los ojos atonitos de su familia
+  content: Increible pero cierto, asi es imposible ganar un mundial ni una pachanga en plena calle.
+  image: https://imagenes.20minutos.es/files/image_640_360/files/fp/uploads/imagenes/2023/04/12/pep-guardiola.r_d.2136-374-1398.jpeg
+  url: https://www.20minutos.es/deportes/noticia/5193219/0/guardia-civil-relaciona-pep-guardiola-con-tsunami-democratic-alento-rebelarse-contra-estado/
 ::/cards::
 
 
