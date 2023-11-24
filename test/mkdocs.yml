@@ -19,9 +19,9 @@ theme:
     text: Playfair Display #Roboto  # se puede elegir cualquiera de https://fonts.google.com/ (Default Roboto)
     code: Roboto Mono
   features:
-    - navigation.sections # Para menu superior navigation.tabs
-  #  - navigation.tabs
-  #  - navigation.expand
+  #  - navigation.sections # Para menu superior navigation.tabs
+    - navigation.tabs
+    - navigation.expand
   #  - navigation.tabs
     - header.autohide  # Collapse menu on scrolling
 extra_css:
@@ -81,6 +81,17 @@ markdown_extensions:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' 
+  - exclude-search: #https://github.com/chrieke/mkdocs-exclude-search
+      exclude:
+        - first.md
+        - seccionC/index.md
+        - third.md#some-heading
+        - dir2/*
+#        - /*/fifth.md
+      ignore:
+        - dir/second.md#some-heading
+      # exclude_unreferenced: true  # ojo con esta, que casi siempre las tengo unreferenced y no aparecen 
+          
   - charts
   - macros:
       include_dir: docs/_include/macros   # https://mkdocs-macros-plugin.readthedocs.io/en/latest/advanced/

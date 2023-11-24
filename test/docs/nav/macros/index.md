@@ -88,7 +88,7 @@ description: Explicacion de las macros
 
 variableA: valueA
 variableList: ["valorA", "valorB", "valorC"]
-variableListObjects: [{name:"Luis"}, {name:"Juan"}, {name:"Maria"}]
+variableListObjects: [{"name":"Luis"}, {"name":"Juan"}, {"name":"Maria"}]
 ---
 ```
 Podemos usar esas variables asi:
