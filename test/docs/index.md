@@ -34,12 +34,14 @@ Welcome
 ::/cards::
 
 
+---
 
 ![publicity 1](https://neilpatel.com/wp-content/uploads/2021/02/discovery-successful-banner-advertising-.png)
 
 
+---
 
-
+## Ronaldo bombazo en Qatar
 ![Ronaldito Se lesiona](https://www.realmadrid.com/img/vertical_380px/cristiano_550x650_20180917025046.jpg){ align=left loading=lazy style="max-height:350px;max-width:250px" }Como podemos apreciar en la foto de al lado nuestro ronaldito nos indica todas las cosas que debemos saber
 se muestra una imagen vacia del site http://dummyimage.com .
 
@@ -50,9 +52,9 @@ Otro parrafo tambien al lado de la foto.
 <br>
 <br>
 <br>
-<br>
-<br>
+---
 
+## Messi y la navidad
 ![Messi nos fecilita la navidad](https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX-ToKuor9BIbp9fm8Fbpy9CB0zRGioPagQOSFP6Zw-gj1IyHviudsojFuqaReXj4X_MOt3b1B-1MFsns){ align=right loading=lazy style="max-height:350px;max-width:250px" }Messi nos felicita en exclusiva para nuestros lectores, de esta manera tan simpatica, la navidad deseandonos un proximo año y un pasado año.
 
 Fuente oficiales han indicado que tiene que ver como establece el clima para el año que viene.

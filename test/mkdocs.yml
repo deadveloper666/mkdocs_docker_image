@@ -40,7 +40,14 @@ extra_javascript:
 copyright: Copyright &copy; 2016 - 2023 test site
 # extra:
 #  disqus: ddd  # El mejor sistema es https://giscus.app/es lo mete como comentarios en tu cuenta de github (es necesario tener configurado el repo_url, etc..)
-
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
