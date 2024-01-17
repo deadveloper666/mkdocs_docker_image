@@ -129,3 +129,6 @@ Live Site
 [https://deadveloper666.github.io/mkdocs_docker_image/](https://deadveloper666.github.io/mkdocs_docker_image/)
 
 
+# CONVERT TO PWA
+
+To enable PWA features on mkdocs project see this example [https://github.com/Snickdx/pwadocs](https://github.com/Snickdx/pwadocs)
