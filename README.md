@@ -129,7 +129,4 @@ Live Site
 [https://deadveloper666.github.io/mkdocs_docker_image/](https://deadveloper666.github.io/mkdocs_docker_image/)
 
 
-<<<<<<< HEAD
-Deleteme
-=======
->>>>>>> main
+
