@@ -1,6 +1,6 @@
 # mkdocs
 
-Repo for image published on dockerHub [https://hub.docker.com/r/danipenaperez/mkdocs](https://hub.docker.com/r/danipenaperez/mkdocs)
+Repo of image published on dockerHub [https://hub.docker.com/r/danipenaperez/mkdocs](https://hub.docker.com/r/danipenaperez/mkdocs)
 
 mkdocs image modified with some plugins and themes
 
@@ -129,4 +129,10 @@ Live Site
 [https://deadveloper666.github.io/mkdocs_docker_image/](https://deadveloper666.github.io/mkdocs_docker_image/)
 
 
+<<<<<<< HEAD
 
+=======
+# CONVERT TO PWA
+
+To enable PWA features on mkdocs project see this example [https://github.com/Snickdx/pwadocs](https://github.com/Snickdx/pwadocs)
+>>>>>>> main
