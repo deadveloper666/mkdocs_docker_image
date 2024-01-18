@@ -1,6 +1,6 @@
 # mkdocs
 
-Repo for image published on dockerHub [https://hub.docker.com/r/danipenaperez/mkdocs](https://hub.docker.com/r/danipenaperez/mkdocs)
+Repo of image published on dockerHub [https://hub.docker.com/r/danipenaperez/mkdocs](https://hub.docker.com/r/danipenaperez/mkdocs)
 
 mkdocs image modified with some plugins and themes
 
