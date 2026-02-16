@@ -5,6 +5,9 @@ description: Explicacion de las macros
 variableA: mi super value A
 variableList: ["valorA", "valorB", "valorC"]
 variableListObjects: [{"name":"Luis"}, {"name":"Juan"}, {"name":"Maria"}]
+
+tags:
+  - macros
 ---
 
 # Macros

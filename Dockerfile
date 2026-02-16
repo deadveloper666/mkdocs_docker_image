@@ -26,4 +26,4 @@ RUN pip install neoteroi-mkdocs
 RUN pip install mkdocs-macros-plugin
 RUN pip install mkdocs-include
 RUN pip install mkdocs-exclude-search
-
+RUN pip install mkdocs-git-committers-plugin

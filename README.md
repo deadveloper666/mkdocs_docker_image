@@ -135,4 +135,7 @@ Live Site
 # CONVERT TO PWA
 
 To enable PWA features on mkdocs project see this example [https://github.com/Snickdx/pwadocs](https://github.com/Snickdx/pwadocs)
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

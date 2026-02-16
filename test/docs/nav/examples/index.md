@@ -1,3 +1,11 @@
+---
+title: Examples 
+description: Varios ejemplos
+tags:
+  - examples
+  - mkdocs
+---
+
 Esta pagina muestra ejemplos de utilidades que se pueden utilizar:
 
 **Importante: La compatibilidad total es con el theme material**
