@@ -26,11 +26,13 @@ Will create locally  image danipenaperez/mkdocs latest
 
 Run ./publish.sh to publish new changes to dockerHub public artifactory
 ```sh
-./publish.sh
+./publish_dockerHub.sh
 ..
 latest: digest: sha256:5543b0017957f1c0917bbb27c9bf3dabbb92e9c329b68472530d99dfc779a5c6 size: 4299
 Succesfully published danipenaperez/mkdocs danipenaperez/mkdocs:latest on docker hub
 ```
+Will publish current image as tag version and latest
+
 # Adding plugins to the base mkdocs image
 
 Edit file .Dokerfile then add all "RUN pip install $PackageName" commands to install new plugins
@@ -129,13 +131,6 @@ Live Site
 [https://deadveloper666.github.io/mkdocs_docker_image/](https://deadveloper666.github.io/mkdocs_docker_image/)
 
 
-<<<<<<< HEAD
-
-=======
 # CONVERT TO PWA
 
 To enable PWA features on mkdocs project see this example [https://github.com/Snickdx/pwadocs](https://github.com/Snickdx/pwadocs)
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main

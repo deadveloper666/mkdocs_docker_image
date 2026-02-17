@@ -5,9 +5,7 @@ authors:
     - Daniel Peña Perez
 date: 2018-07-10
 some_url: https://example.com
-tags:
-  - macros
-  - socialcards
+
 ---
 
 

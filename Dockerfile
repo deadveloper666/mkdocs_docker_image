@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material
+FROM danipenaperez/mkdocs:v1.0.4
 
 LABEL version="1.0"
 LABEL description="Mkdocs Customization Image"
@@ -26,4 +26,5 @@ RUN pip install neoteroi-mkdocs
 RUN pip install mkdocs-macros-plugin
 RUN pip install mkdocs-include
 RUN pip install mkdocs-exclude-search
-RUN pip install mkdocs-git-committers-plugin
+RUN pip install mkdocs-static-i18n
+
