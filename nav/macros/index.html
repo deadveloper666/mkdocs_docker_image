@@ -9,9 +9,9 @@
 <meta content="The test site group" name="author"/>
 <link href="https://www.test_site.com/nav/macros/" rel="canonical"/>
 <link href="../media_embeded/" rel="prev"/>
-<link href="trying/" rel="next"/>
+<link href="../examples/" rel="next"/>
 <link href="../../runtime_assets/icons/logo.png" rel="icon"/>
-<meta content="mkdocs-1.6.1, mkdocs-material-9.4.10" name="generator"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.4.10" name="generator"/>
 <title>MKDocs Testing site</title>
 <link href="../../assets/stylesheets/main.fad675c6.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.356b1318.min.css" rel="stylesheet"/>
@@ -21,7 +21,7 @@
 <link href="../../runtime_assets/css/extra.css" rel="stylesheet"/>
 <link href="../../runtime_assets/css/neoteroi-cards/neoteroi-mkdocs.css" rel="stylesheet"/>
 <link href="../../runtime_assets/css/embeded_media/embeded_media.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <!--Ads-->
 <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7564517257477302"></script>
 </head>
@@ -67,7 +67,7 @@
 </a>
 <!-- Button to open drawer -->
 <label class="md-header__button md-icon" for="__drawer">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
 </label>
 <!-- Header title -->
 <div class="md-header__title" data-md-component="header-title">
@@ -88,9 +88,30 @@
 </div>
 <!-- Color palette toggle -->
 <!-- Site language selector -->
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="Seleccionar idioma" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="../../en/nav/macros/" hreflang="en">
+              English
+            </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="./" hreflang="es">
+              Spanish
+            </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
 <!-- Button to open search modal -->
 <label class="md-header__button md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
 </label>
 <!-- Search interface -->
 <div class="md-search" data-md-component="search" role="dialog">
@@ -99,17 +120,17 @@
 <form class="md-search__form" name="search">
 <input aria-label="Búsqueda" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Búsqueda" required="" spellcheck="false" type="text"/>
 <label class="md-search__icon md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </label>
 <nav aria-label="Buscar" class="md-search__options">
 <button aria-label="Limpiar" class="md-search__icon md-icon" tabindex="-1" title="Limpiar" type="reset">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
 </button>
 </nav>
 </form>
 <div class="md-search__output">
-<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
 <div class="md-search-result" data-md-component="search-result">
 <div class="md-search-result__meta">
             Inicializando búsqueda
@@ -133,7 +154,6 @@
 <a class="md-tabs__link" href="../">
         
   
-  
     
   
   Home
@@ -143,7 +163,6 @@
 <li class="md-tabs__item">
 <a class="md-tabs__link" href="../neoteori_examples/">
         
-  
   
     
   
@@ -155,7 +174,6 @@
 <a class="md-tabs__link" href="../media_embeded/">
         
   
-  
     
   
   Media Examples
@@ -166,7 +184,6 @@
 <a class="md-tabs__link" href="./">
         
   
-  
     
   
   Trabajando con Macros
@@ -174,20 +191,8 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="trying/">
-        
-  
-  
-    
-  
-  trying con Macros
-
-      </a>
-</li>
-<li class="md-tabs__item">
 <a class="md-tabs__link" href="../examples/">
         
-  
   
     
   
@@ -217,36 +222,21 @@
 <li class="md-nav__item">
 <a class="md-nav__link" href="../">
 <span class="md-ellipsis">
-    
-  
     Home
-  
-
-    
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../neoteori_examples/">
 <span class="md-ellipsis">
-    
-  
     Neoteroi Examples
-  
-
-    
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../media_embeded/">
 <span class="md-ellipsis">
-    
-  
     Media Examples
-  
-
-    
   </span>
 </a>
 </li>
@@ -254,36 +244,14 @@
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
-    
-  
     Trabajando con Macros
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="trying/">
-<span class="md-ellipsis">
-    
-  
-    trying con Macros
-  
-
-    
   </span>
 </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../examples/">
 <span class="md-ellipsis">
-    
-  
     Ejemplos
-  
-
-    
   </span>
 </a>
 </li>
@@ -302,9 +270,6 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<nav class="md-tags">
-<a class="md-tag" href="../../tags/#tag:macros">macros</a>
-</nav>
 <h1 id="macros">Macros</h1>
 <p><a href="https://mkdocs-macros-plugin.readthedocs.io/en/latest/advanced/">Documentacion oficial</a>
 Un macro es un fragmento de codigo parametrizado que podemos usar como una template.</p>
@@ -437,11 +402,11 @@ Resultado:</p>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>My name is Pedri .</p>
-<p><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:"> I like sing, jump</img></p>
+<p><img alt="🙋‍♂️" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:"> I like sing, jump</img></p>
 </div>
 <div class="tabbed-block">
 <p>My name is Maribel .</p>
-<p><img alt="😀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f600.svg" title=":grinning:"> I like Play Guitar</img></p>
+<p><img alt="😀" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/1f600.svg" title=":grinning:"> I like Play Guitar</img></p>
 </div>
 <div class="tabbed-block">
 <p>My name is Marisa .</p>
@@ -474,7 +439,6 @@ Resultado:</p>
 </div>
 </article>
 </div>
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
 </div>
 </main>
 <footer class="md-footer">
@@ -538,9 +502,11 @@ Resultado:</p>
 </form>
 </aside>
 </div>
-<script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+<script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
 <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.expand", "header.autohide"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
 <script src="../../assets/javascripts/bundle.6c14ae12.min.js"></script>
+<script src="../../js/mkdocs-charts-plugin.js"></script>
+<script src="../../js/mkdocs-charts-plugin.js"></script>
 <script src="../../js/mkdocs-charts-plugin.js"></script>
 <script src="../../runtime_assets/javascript/custom_functions.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
