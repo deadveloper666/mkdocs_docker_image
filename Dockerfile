@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material
+FROM danipenaperez/mkdocs:v1.0.4
 
 LABEL version="1.0"
 LABEL description="Mkdocs Customization Image"

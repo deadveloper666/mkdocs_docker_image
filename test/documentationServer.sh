@@ -7,7 +7,7 @@ DOCKER_TOOL_LABELS="sdkid=$TOOL_EXEC_ALIAS_NAME"
 
 LOCAL_PORT=9998
 LOCAL_CONTAINER_NAME=$TOOL_EXEC_ALIAS_NAME-mkdocs-local
-LOCAL_CONTAINER_IMAGE=danipenaperez/mkdocs
+LOCAL_CONTAINER_IMAGE=danipenaperez/mkdocs:local  # If want use latest, check remote last tag repository
 #Where is found mkdocs.yml file
 DOCUMENTS_ROOT_PATH=$PWD
 
