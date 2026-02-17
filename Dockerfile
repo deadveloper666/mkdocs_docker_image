@@ -1,4 +1,4 @@
-FROM danipenaperez/mkdocs:v1.0.4
+FROM danipenaperez/mkdocs:v1.0.5
 
 LABEL version="1.0"
 LABEL description="Mkdocs Customization Image"
