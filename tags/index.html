@@ -1,18 +1,18 @@
 
   <!doctype html>
-  <html lang="en" class="no-js">
+  <html lang="es" class="no-js">
     <head>
       
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         
-          <meta name="description" content="Explicacion de las macros">
+          <meta name="description" content="Project documentation with Markdown.">
         
         
           <meta name="author" content="The test site group">
         
         
-          <link rel="canonical" href="https://www.test_site.com/en/">
+          <link rel="canonical" href="https://www.test_site.com/tags/">
         
         
         
@@ -81,6 +81,11 @@
       <label class="md-overlay" for="__drawer"></label>
       <div data-md-component="skip">
         
+          
+          <a href="#examples" class="md-skip">
+            Saltar a contenido
+          </a>
+        
       </div>
       <div data-md-component="announce">
         
@@ -117,7 +122,7 @@
 <header class="md-header" data-md-component="header">
   <nav
     class="md-header__inner md-grid"
-    aria-label="Header"
+    aria-label="Cabecera"
   >
 
     <!-- Link to home -->
@@ -150,7 +155,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Newsletter
+              Tags
             
           </span>
         </div>
@@ -163,32 +168,6 @@
     
 
     <!-- Site language selector -->
-    
-      <div class="md-header__option">
-  <div class="md-select">
-    
-    <button class="md-header__button md-icon" aria-label="Select language">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
-    </button>
-    <div class="md-select__inner">
-      <ul class="md-select__list">
-        
-          <li class="md-select__item">
-            <a href="/en/" hreflang="en" class="md-select__link">
-              English
-            </a>
-          </li>
-        
-          <li class="md-select__item">
-            <a href="/" hreflang="es" class="md-select__link">
-              Spanish
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</div>
     
 
     <!-- Button to open search modal -->
@@ -203,16 +182,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="Buscar">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
@@ -223,7 +202,7 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            Inicializando búsqueda
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -248,7 +227,7 @@
           
             
               
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
       
@@ -257,7 +236,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="nav/" class="md-tabs__link">
+      <a href="../nav/" class="md-tabs__link">
         
   
     
@@ -274,7 +253,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="nav/neoteori_examples/" class="md-tabs__link">
+      <a href="../nav/neoteori_examples/" class="md-tabs__link">
         
   
     
@@ -291,7 +270,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="nav/media_embeded/" class="md-tabs__link">
+      <a href="../nav/media_embeded/" class="md-tabs__link">
         
   
     
@@ -308,7 +287,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="nav/macros/" class="md-tabs__link">
+      <a href="../nav/macros/" class="md-tabs__link">
         
   
     
@@ -325,7 +304,24 @@
   
   
     <li class="md-tabs__item">
-      <a href="nav/examples/" class="md-tabs__link">
+      <a href="../nav/macros/trying/" class="md-tabs__link">
+        
+  
+    
+  
+  trying con Macros
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../nav/examples/" class="md-tabs__link">
         
   
     
@@ -360,7 +356,7 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Test Site" class="md-nav__button md-logo" aria-label="Test Site" data-md-component="logo">
       
@@ -378,7 +374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="nav/" class="md-nav__link">
+      <a href="../nav/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -397,7 +393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="nav/neoteori_examples/" class="md-nav__link">
+      <a href="../nav/neoteori_examples/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -416,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="nav/media_embeded/" class="md-nav__link">
+      <a href="../nav/media_embeded/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -435,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="nav/macros/" class="md-nav__link">
+      <a href="../nav/macros/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -454,7 +450,26 @@
   
   
     <li class="md-nav__item">
-      <a href="nav/examples/" class="md-nav__link">
+      <a href="../nav/macros/trying/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    trying con Macros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nav/examples/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -480,10 +495,54 @@
                     <div class="md-sidebar__inner">
                       
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      examples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macros" class="md-nav__link">
+    <span class="md-ellipsis">
+      macros
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      mkdocs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#socialcards" class="md-nav__link">
+    <span class="md-ellipsis">
+      socialcards
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                     </div>
@@ -498,33 +557,25 @@
                     
 
 
-  <h1>Newsletter</h1>
+  <h1>Tags</h1>
 
-<p>Welcome to: ENGLISH VERSION</p>
-<div class="nt-cards nt-grid cols-2">
-<div class="nt-card">
-<div class="nt-card-wrap">
-<div>
-<div class="nt-card-image tags"><img src="https://imagenes.20minutos.es/files/image_640_360/files/fp/uploads/imagenes/2023/04/12/pep-guardiola.r_d.2136-374-1398.jpeg" /></div>
-<div class="nt-card-content">
-<p class="nt-card-title">Messi se tira un pedo</p>
-<p class="nt-card-text">La gente llora su perdida porque salió volando por los aires.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="nt-card">
-<div class="nt-card-wrap">
-<div>
-<div class="nt-card-image tags"><img src="https://imagenes.20minutos.es/files/image_320_180/files/fp/uploads/imagenes/2022/04/05/pago-con-tarjeta.r_d.2240-2240.jpeg" /></div>
-<div class="nt-card-content">
-<p class="nt-card-title">El movil del Rey es hackeado por Antonio Resines</p>
-<p class="nt-card-text">Si, tal y como cuentan las noticias&hellip;</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+<h2 id="examples"><span class="md-tag">examples</span></h2>
+<ul>
+<li><a href="../nav/examples/">Examples</a></li>
+</ul>
+<h2 id="macros"><span class="md-tag">macros</span></h2>
+<ul>
+<li><a href="../nav/macros/">Macros</a></li>
+<li><a href="../nav/neoteori_examples/">Ejemplos Mkdocs</a></li>
+</ul>
+<h2 id="mkdocs"><span class="md-tag">mkdocs</span></h2>
+<ul>
+<li><a href="../nav/examples/">Examples</a></li>
+</ul>
+<h2 id="socialcards"><span class="md-tag">socialcards</span></h2>
+<ul>
+<li><a href="../nav/neoteori_examples/">Ejemplos Mkdocs</a></li>
+</ul>
 
 
 
@@ -616,7 +667,7 @@
 <div class="md-consent__controls">
   
     
-      <button class="md-button md-button--primary">Accept</button>
+      <button class="md-button md-button--primary">Aceptar</button>
     
     
     
@@ -624,7 +675,7 @@
     
     
     
-      <label class="md-button" for="__settings">Manage settings</label>
+      <label class="md-button" for="__settings">Gestionar cookies</label>
     
   
 </div>
@@ -633,12 +684,10 @@
         </div>
         <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.expand", "header.autohide"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.expand", "header.autohide"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
       
       
         <script src="../assets/javascripts/bundle.6c14ae12.min.js"></script>
-        
-          <script src="../js/mkdocs-charts-plugin.js"></script>
         
           <script src="../js/mkdocs-charts-plugin.js"></script>
         

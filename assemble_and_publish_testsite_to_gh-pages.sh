@@ -16,6 +16,4 @@ git push -u origin gh-pages
 
 git checkout main
 
-echo "Succesfully Assembled and published to gh-pages. Redirecting to public site"
-
-sensible-browser "https://deadveloper666.github.io/mkdocs_docker_image/"
+echo "Succesfully Assembled and published to gh-pages"

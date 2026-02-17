@@ -1,0 +1,60 @@
+{% macro createCabecera(noticia) %}
+
+::cards::  cols=1 image-bg
+
+- title: {{ noticia.title }}
+  content: |
+    {{ noticia.content }}
+  url: https://en.wikipedia.org/wiki/Zeus
+  image: {{noticia.image}}
+
+::/cards::
+{% endmacro %}
+
+
+
+{% macro largeNoticeA(noticia) %}
+## Messi y la navidad
+![Messi nos fecilita la navidad](https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX-ToKuor9BIbp9fm8Fbpy9CB0zRGioPagQOSFP6Zw-gj1IyHviudsojFuqaReXj4X_MOt3b1B-1MFsns){ align=right loading=lazy style="max-height:350px;max-width:250px" }Messi nos felicita en exclusiva para nuestros lectores, de esta manera tan simpatica, la navidad deseandonos un proximo año y un pasado año.
+
+Fuente oficiales han indicado que tiene que ver como establece el clima para el año que viene.
+{% endmacro %}
+
+
+
+
+{% macro treeHorizontal(notices) %}
+::cards::  cols=3
+
+    {% for notice in notices %}
+
+- title: {{ notice.title }}
+  content: |
+    {{ notice.content }}
+  image: {{ notice.image }}
+  url: https://en.wikipedia.org/wiki/Zeus
+
+
+    {% endfor %}
+
+::/cards::
+{% endmacro %}
+
+
+{% macro advertisingTypeA(advertising) %}
+![publicity 1]({{advertising.image}})
+{% endmacro %}
+
+
+{% macro youtubeVideo(videoId, videoTitle) %}
+
+::cards::  cols=1 image-bg
+
+- title: {{ videoTitle }}
+  content: |
+    <div class="embed-youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ videoId }}" title="{{ videoTitle }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  url: https://en.wikipedia.org/wiki/Zeus
+
+::/cards::
+
+{% endmacro %}
