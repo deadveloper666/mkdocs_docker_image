@@ -1,21 +1,6 @@
 #!/bin/bash
 # Ensure get the last published image
-docker pull danipenaperez/mkdocs
-git checkout gh-pages
-git merge main --no-ff
-# Assemble dist
-cd test
-./documentationServer.sh assemble
-cd ..
-cp -a ./test/site/. .
-
-# COMMIT AND PUSH 
-git add -A
-git commit -m "Pushed build source"
-git push -u origin gh-pages
-
-git checkout main
-
-echo "Succesfully Assembled and published to gh-pages. Redirecting to public site..."
-sleep 5s
-sensible-browser "https://deadveloper666.github.io/mkdocs_docker_image/"
+echo "gh-pages and main branch must be indepent"
+echo "run ./test/documentationServer.sh assemble and get the site folder"
+echo "at other directory clone repo, checkout to gh-pages and paste the site folder content, commit and push to gh-pages"
+echo "Then you can visit https://deadveloper666.github.io/mkdocs_docker_image/."
