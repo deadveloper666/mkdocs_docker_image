@@ -1,7 +1,16 @@
 #!/bin/bash
 
 # Verificacion 
-echo "WELCOME TO GENERATE IMAGE"
+echo "************************"
+echo "WELCOME TO GENERATE IMAGE Manual publication"
+echo ""
+echo "Warn: Docker Hub Publication is done via github Actions."
+
+read -p "Use this script only for manual dockerHub publication. Continue (Y/n): " CONTINUE_ACTION
+if [ $CONTINUE_ACTION != "Y" ]; then
+    exit
+fi
+echo ""
 echo "Ensure building from last image build from this repo, to be incremental"
 
 LAST_IMAGE_TAG_NAME=$(git describe --tags --abbrev=0)

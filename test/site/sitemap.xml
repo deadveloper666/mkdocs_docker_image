@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://www.test_site.com/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/nav/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/nav/examples/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/examples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/examples/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/nav/macros/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/macros/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/macros/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/nav/media_embeded/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/media_embeded/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/media_embeded/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/nav/neoteori_examples/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/neoteori_examples/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/neoteori_examples/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/en/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/en/nav/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/en/nav/examples/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/examples/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/examples/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/en/nav/macros/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/macros/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/macros/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/en/nav/media_embeded/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/media_embeded/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/media_embeded/"/>
+    </url>
+    <url>
+        <loc>https://www.test_site.com/en/nav/neoteori_examples/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.test_site.com/en/nav/neoteori_examples/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.test_site.com/nav/neoteori_examples/"/>
+    </url>
+</urlset>
