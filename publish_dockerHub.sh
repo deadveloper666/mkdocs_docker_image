@@ -14,7 +14,7 @@ echo ""
 BRANCH_NAME=$(git symbolic-ref --short HEAD)
 echo $BRANCH_NAME
 if [ $BRANCH_NAME == "main" ]; then
-    echo "ERROR: Generate images from main branch is not allowed"    
+    echo "ERROR: Generate images from main branch is not allowed. Generate a tag and execute publish_dockerhub.sh"    
 fi
 exit
 
