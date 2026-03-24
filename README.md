@@ -115,6 +115,9 @@ Is associated to release (phase), so it is necessary:
 - Push tag ( git push --tags)
 - Create release from tag manually (https://github.com/deadveloper666/mkdocs_docker_image/releases  and "Draft new Release", and choose v1.0.1)
 
+Ten en cuenta que este repo es del github deadveloper pero el dockerhub es de danipenaperez habria que cambiarlo
+Los nombrs de las tag solo tinen dos puntos, es vX.X.X  no es v.X.X.X
+
 At Docker Hub, the image is published as tagVersioned (danipenaperez/mkdocs:v1.0.2) and latest (danipenaperez/mkdocs:latest)
 
 # Testing Test mkdocs local test site
