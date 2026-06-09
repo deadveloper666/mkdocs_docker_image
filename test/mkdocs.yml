@@ -86,6 +86,12 @@ markdown_extensions:
   - neoteroi.projects # Gantt Diagrams
   - neoteroi.spantable # Tables
 plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: 'zoom' # Efecto de apertura ('zoom', 'fade', 'none')
+      skip_classes:
+        - no-lightbox # Si le pones esta clase CSS a una imagen, no se ampliará
   - i18n:
       docs_structure: suffix
       languages:
