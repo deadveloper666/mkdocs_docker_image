@@ -27,4 +27,5 @@ RUN pip install mkdocs-macros-plugin
 RUN pip install mkdocs-include
 RUN pip install mkdocs-exclude-search
 RUN pip install mkdocs-static-i18n
+RUN pip install mkdocs-glightbox
 
